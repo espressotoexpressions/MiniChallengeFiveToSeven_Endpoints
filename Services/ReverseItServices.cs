@@ -18,7 +18,7 @@ namespace MiniChallengeFiveToSeven_Endpoints.Services
                 reversedString += inputString[s];
             }
 
-            return reversedString;
+            return $"You entered {inputString}, reversed is {reversedString}";
         }
         else{
             return "ERROR: No string input to process...";

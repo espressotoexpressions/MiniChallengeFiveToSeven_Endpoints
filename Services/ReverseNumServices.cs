@@ -24,7 +24,7 @@ namespace MiniChallengeFiveToSeven_Endpoints.Services
                     numInput = numInput / 10;// removes the last digit of the numInput 
 
                 }
-                return $"This is your reversed number: {numReverse}";
+                return $"You entered {num}.Reversed is {numReverse}.";
 
             }
 
