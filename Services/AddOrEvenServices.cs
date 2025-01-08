@@ -8,7 +8,8 @@ namespace MiniChallengeFiveToSeven_Endpoints.Services
 {
     public class AddOrEvenServices
     {
-        public string IsItOddOrEven(string num){
+        public string IsItOddOrEven(string num)
+        {
 
             int num1 = 0;
             bool isValidInteger = int.TryParse(num, out num1);

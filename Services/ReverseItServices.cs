@@ -8,23 +8,19 @@ namespace MiniChallengeFiveToSeven_Endpoints.Services
     public class ReverseItServices
     {
         
-        public string GetReverseString(string inputString){
+        public string GetReverseString(string inputString)
+        {
         
         string reversedString="";
-        if (inputString != "")
-        {
+        if (inputString != ""){
 
-            for (int s = inputString.Length - 1; s >= 0; s--)
-            {
+            for (int s = inputString.Length - 1; s >= 0; s--){
                 reversedString += inputString[s];
             }
 
-
             return reversedString;
-
         }
-        else
-        {
+        else{
             return "ERROR: No string input to process...";
         }
 

@@ -19,7 +19,8 @@ namespace MiniChallengeFiveToSeven_Endpoints.Controllers
 
         [HttpGet]
         [Route("OddOrEven/{num}")]
-        public  string IsItOddOrEven(string num){
+        public  string IsItOddOrEven(string num)
+        {
             return _addOrEvenServices.IsItOddOrEven(num);
         }
 

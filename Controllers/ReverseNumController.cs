@@ -13,8 +13,9 @@ namespace MiniChallengeFiveToSeven_Endpoints.Controllers
     {
         private readonly ReverseNumServices _reverseNumServices;
 
-        public ReverseNumController(ReverseNumServices reverseNumServices){
-            _reverseNumServices=reverseNumServices;
+        public ReverseNumController(ReverseNumServices reverseNumServices)
+        {
+            _reverseNumServices = reverseNumServices;
         }
 
         [HttpGet]
@@ -24,6 +25,6 @@ namespace MiniChallengeFiveToSeven_Endpoints.Controllers
         {
             return _reverseNumServices.GetReverseNum(num);
         }
-        
+
     }
 }
