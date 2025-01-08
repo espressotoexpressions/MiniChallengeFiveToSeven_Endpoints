@@ -21,4 +21,6 @@ Endpoints:
      - "You entered 12345, reversed is 54321"
      
 
-//Peer Reviewed by: 
+//Peer Reviewed by: Brock Spacek
+
+Comments: All 4 endpoints work as intended checked via Swagger and Postman. Everything is very neat and readable. Great job and keep up the good work!
